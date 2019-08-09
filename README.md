@@ -29,14 +29,18 @@ I was able to get this to compile again under Delphi 2007 with Indy 10 that ship
 
 It's a bit juvenile but I still want to shout out to several of the folks I spent a lot of time reversing and developing software with. Some good times! I'm missing several folks but it's hard to remember screennames after so long.
 
-acidflash
-dootdoo
-Hack0r
-kai`ckul
-khuong
-jokko
-Thatguy2001
-Tsongkie
-xbox7887
-[Death]
-[sheep]
+* acidflash
+* dootdoo
+* g3nuin3
+* Hack0r
+* h0jew
+* kai\`ckul
+* khuong
+* jokko
+* Taktar
+* Thatguy2001
+* Tsongkie
+* xbox7887
+* [Death]
+* [sheep]
+* [Whitey]
