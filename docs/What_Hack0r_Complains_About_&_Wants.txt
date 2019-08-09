@@ -1,0 +1,35 @@
+What I have problems with:
+- Breaking freezes game and I can't continue (most likely my bios)
+- Poking (SETMEM) doesn't stick
+- After 35-40 dumps, xbox freezes, won't complete dump
+- Hex Memory View will go blank if I search for a wrong address or is out of range (have re-dump to see it again)
+
+What I'd like to see incorporated:
+- A search/filter program (kind of like Art Money or Tsearch)... includes different searching/filtering of floats/Integers by 1,2,3,4,6,8,10 bytes;
+  Unknown values (increased (by), decreased (by), did not change)
+  Basically, figure out Art Money, then integrate it into XDKA (easier said then done, I know :P but it makes working a lot easier)
+- Integrated Hex-Dec, Dec-Hex calculator (like Windows Calculator); Maybe include a base converter (32 bit, Intel) Basically Hexworkshop's base converter
+- Maybe a visible buffer range in the Dumping Tag, for example: PC hex ranges: 2000000h-4000000h
+- Customized dump button
+- Automatic break point copy to Notes
+- Change Xbox Logo
+- Instead of the black background, maybe include a Evox-T logo in the background (something subtle so it doesn't overpower the text)
+- Change logos next to "Dumping", "Notes"...etc to a more 3D look
+
+If your hardcore (if not void this), then here is my "asking for too much" category:
+- Incorporate a picture dumping tool (takes picture of current screen)
+- ASM file maker (I'm too lazy to make a new .txt and save it as .asm)
+- Timestamp/Title ID displayer (searches through XBE to find it)
+- Incorporate Caustic's XBE-EXE converter
+
+What I want to stay:
+- PC-Xbox Xbox-PC hex converter
+- GETMEM
+- The "HUD" of course (shows what's happening between PC and Xbox)(Connecting, dump...etc)
+- All the tabs
+- Dumping (obviously)
+
+
+What I never understood:
+- What the "Section Flags" does
+- Memory View (kind of pointless)
