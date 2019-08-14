@@ -1,24 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{bafd21de-c786-409f-87d5-f9f2162c20e4}</ProjectGuid>
+    <ProjectGuid>{5f6ecf7c-8be1-412e-b91f-a6378dc92d81}</ProjectGuid>
     <MainSource>XDKAssist.dpr</MainSource>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
     <DCC_DependencyCheckOutputName>build\debug\bin\XDKAssist.exe</DCC_DependencyCheckOutputName>
-    <DCC_EnabledPackages>true</DCC_EnabledPackages>
-    <DCC_UsePackage>vcl;rtl;vclx;vclactnband;dbrtl;bdertl;dsnap;teeUI;teedb;tee;adortl;IndyCore;IndySystem;IndyProtocols;xmlrtl;inet;IntrawebDB_90_100;Intraweb_90_100;vclie;inetdbbde;inetdbxpress;soaprtl;VclSmp;MPHexEditor_D7;vcldb</DCC_UsePackage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Version>7.0</Version>
+    <DCC_FullBooleanEvaluations>True</DCC_FullBooleanEvaluations>
     <DCC_DebugInformation>False</DCC_DebugInformation>
     <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_PentiumSafeDivide>True</DCC_PentiumSafeDivide>
     <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
-    <DCC_UnitSearchPath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_UnitSearchPath>
-    <DCC_ResourcePath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_ResourcePath>
-    <DCC_ObjPath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_ObjPath>
-    <DCC_IncludePath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_IncludePath>
     <DCC_Define>RELEASE</DCC_Define>
     <DCC_ExeOutput>build\release\bin</DCC_ExeOutput>
     <DCC_DcuOutput>build\release</DCC_DcuOutput>
@@ -28,11 +26,12 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Version>7.0</Version>
-    <DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
-    <DCC_UnitSearchPath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_UnitSearchPath>
-    <DCC_ResourcePath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_ResourcePath>
-    <DCC_ObjPath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_ObjPath>
-    <DCC_IncludePath>$(BDS)\Lib\Debug\Indy10;$(BDS)\lib\Debug</DCC_IncludePath>
+    <DCC_FullBooleanEvaluations>True</DCC_FullBooleanEvaluations>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_PentiumSafeDivide>True</DCC_PentiumSafeDivide>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
     <DCC_Define>DEBUG</DCC_Define>
     <DCC_ExeOutput>build\debug\bin</DCC_ExeOutput>
     <DCC_DcuOutput>build\debug</DCC_DcuOutput>
@@ -44,17 +43,7 @@
     <Borland.Personality>Delphi.Personality</Borland.Personality>
     <Borland.ProjectType />
     <BorlandProject>
-<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">0</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">1</VersionInfo><VersionInfo Name="Build">7</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">True</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="FileVersion">0.0.1.7</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="CompanyName">EvoX-T</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Private EvoX-T training tool</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName">XDK Assist</VersionInfoKeys><VersionInfoKeys Name="SpecialBuild">Rushed public release</VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">XDKAssist.dpr</Source></Source>  <Excluded_Packages>
       
       
       
@@ -75,22 +64,23 @@
       
       <Excluded_Packages Name="$(BDS)\bin\dcloffice2k100.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
       <Excluded_Packages Name="$(BDS)\bin\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
-    </Excluded_Packages><Source><Source Name="MainSource">XDKAssist.dpr</Source></Source></Delphi.Personality><ModelSupport>False</ModelSupport></BorlandProject></BorlandProject>
+    </Excluded_Packages>
+  </Delphi.Personality></BorlandProject></BorlandProject>
   </ProjectExtensions>
   <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
   <ItemGroup>
     <DelphiCompile Include="XDKAssist.dpr">
       <MainSource>MainSource</MainSource>
     </DelphiCompile>
-    <DCCReference Include="src\AppGlobal.pas" />
-    <DCCReference Include="src\Breakpoint.pas" />
-    <DCCReference Include="src\LogStream.pas" />
-    <DCCReference Include="src\Main.pas">
+    <DCCReference Include="src\AppStrings.pas" />
+    <DCCReference Include="src\CXboxManager.pas" />
+    <DCCReference Include="src\CXBreakpointManager.pas" />
+    <DCCReference Include="src\CXMemoryManager.pas" />
+    <DCCReference Include="src\Global.pas" />
+    <DCCReference Include="src\Log.pas" />
+    <DCCReference Include="src\MainForm.pas">
       <Form>frmMain</Form>
     </DCCReference>
-    <DCCReference Include="src\Settings.pas" />
-    <DCCReference Include="src\Tool.pas" />
-    <DCCReference Include="src\XBOXManager.pas" />
     <None Include="XDKAssist.todo" />
   </ItemGroup>
 </Project>

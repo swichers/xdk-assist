@@ -1,19 +1,2 @@
-{TODO : Display percentage complete on progress bars}
-{TODO : For color logging have a rich it up function}
-{TODO : Fix disconnection tracking (linked with status checking?)}
-{TODO : Command queuing with response checking}
-{TODO -cLayout : Better status bar information (program status and what not)}
-{DONE -cLayout : Show and hide the main log. Have another log visible by a tabbed window}
-{TODO : Possible disassembly view?}
-{TODO : have a register compare option}
-{TODO : Keep complete breakpoint history with times and registers: list box that when you click it it changes the register information}
-{TODO : go through each function and make a list of what you don't like, then go back later and fix all the stuff}
-{TODO : Eat messages option will eat common messages like 200- ok and n: execution stopped}
-{TODO : Cut out 66% ram usage by reworking buffer stuff. Wait until other changes are in, so you can easily fix any speed issues}
-{TODO -cLayout : Redesign log area - show xbox logo faintly behind text, outline the input box, add coloring}
-{TODO : Solidify status changes and checking of status}
-{TODO : Internal tools editor}
-{TODO -cLayout : Redesign register window and breakpoint area}
-{TODO -cControls : THistoryBox - contains a 20 string list of previously entered text}
-{TODO -cControls : TMPHexEdit - rewrite to allow direct memory access to buffer - or - focus buffer elswhere}
-{TODO -cControls : THexBox - accepts only valid hexadecimal input. Features the ability to validate pastes, accept or rject different styles of notation ($,h,0x) and force capitals or zero fills}
+
+
